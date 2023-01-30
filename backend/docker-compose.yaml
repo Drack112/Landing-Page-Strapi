@@ -4,8 +4,10 @@ services:
   strapi:
     build: .
     container_name: strapi-application
+    restart: always
     volumes:
       - .:/srv/app
+      - ./node_modules:/srv/app/node_modules
     depends_on:
       - db
     env_file:

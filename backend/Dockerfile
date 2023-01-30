@@ -3,9 +3,10 @@ FROM strapi/strapi:3.4.1-node14-alpine
 LABEL com.centurylinklabs.watchtower.enable="false"
 
 ENV NODE_ENV production
-WORKDIR /app
+WORKDIR /svr/app
 
 COPY package.json .
+COPY package-lock.json .
 RUN npm install
 
 COPY favicon.ico .
