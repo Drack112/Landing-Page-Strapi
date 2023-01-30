@@ -61,12 +61,6 @@ export const Description = styled.h2`
   `}
 `
 
-export const Warning = styled.p`
-  ${({ theme }) => css`
-    padding-top: ${theme.spacings.medium};
-  `}
-`
-
 export const ButtonWrapper = styled.div`
   ${({ theme }) => css`
     display: flex;

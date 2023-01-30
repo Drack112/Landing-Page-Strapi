@@ -7,7 +7,7 @@ import CardModule from 'components/CardModule'
 import * as S from './styles'
 import { SectionModulesProps } from 'types/api'
 
-const SectionModules = ({ modules, title }: SectionModulesProps) => (
+const SectionModules = ({ title, modules }: SectionModulesProps) => (
   <Container>
     <Heading reverseColor>{title}</Heading>
 
