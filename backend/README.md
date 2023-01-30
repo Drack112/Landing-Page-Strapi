@@ -83,8 +83,6 @@ npm install // yarn install
 
 E então, rode o comando `docker-compose up --build -V`.
 
-Se você quiser rodar o container em ambiente de produção `docker-compose -f ./docker-compose.prod.yml up --build -V`
-
 Agora você pode acessar [localhost:1337](localhost:1337) do seu navegador.
 
 <a id="licença"></a>
