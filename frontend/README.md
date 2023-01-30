@@ -13,6 +13,18 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 </p>
 
+<p align="center">
+  <img alt="Home Page" src=".github/media/home.png" width="100%">
+</p>
+
+<p align="center">
+    <img alt="modules Page" src=".github/media/modules.png" width="100%">
+</p>
+
+<p align="center">
+  <img alt="techs Page" src=".github/media/techs.png" width="100%">
+</p>
+
 <br>
 
 <a id="-tecnologias"></a>
