@@ -72,7 +72,7 @@ NEXT_PUBLIC_IMAGE_HOST=http://localhost:1337
 
 ## Configurando a aplicação antes de iniciar :gear:
 
-Primeiro, instale todas as Gems que são cobradas no GemFile:
+Instale os requerimentos do package.json com seu gerenciador de pacotes a disposição
 
 ```bash
 pnmp install // yarn install // npm install
